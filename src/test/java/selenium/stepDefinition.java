@@ -20,7 +20,7 @@ public class stepDefinition {
 
 	@Then("^I should be on \"([^\"]*)\" home page$")
 	public void i_should_be_on_home_page(String arg1) throws Throwable {
-	    Assert.assertTrue(driver.getTitle().contains("asdf"));
+	    Assert.assertTrue(driver.getTitle().contains("Super"));
 	    driver.close();
 	}
 }
